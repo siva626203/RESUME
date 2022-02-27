@@ -24,4 +24,68 @@ ul{
   content: icon;
     
 }
+@media screen and (min-width: 400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+    h1 {
+        text-align: center;
+        color: chartreuse;
+        font-size: 50px;
+        padding-top: 5px;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        align-self: center;
+    }
+    .body {
+        background-color: black;
+        font-family: 'Syne Mono', monospace;
+    }
+    ul{
+        border-radius: 20px;
+        color: black;
+        font-size: 35px;
+        font-family: 'Syne Mono', monospace;
+        text-overflow: initial;
+        text-decoration-color: aqua;
+        border-color: 2px aqua;
+        background-size: cover;
+        background-size: 10px;
+        
+    }
+    .nav-item {
+        display: flex;
+      content: icon;
+        
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+    h1 {
+        text-align: center;
+        color: chartreuse;
+    }
+    .body {
+        background-color: black;
+        font-family: 'Syne Mono', monospace;
+    }
+    ul{
+        border-radius: 20px;
+        color: black;
+        font-size: 20px;
+        font-family: 'Syne Mono', monospace;
+        text-overflow: initial;
+        text-decoration-color: aqua;
+        border-color: 2px aqua;
+        background-size: cover;
+        background-size: 10px;
+        
+    }
+    .nav-item {
+        display: flex;
+      content: icon;
+        
+    }
+    
+  }
 
